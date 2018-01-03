@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Dashboard</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<meta name="theme-color" content="#000">
+	<meta name="msapplication-navbutton-color" content="#000">
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+	<link rel="stylesheet" href="css/main.min.css">
+
+
+</head>
+
+<body class="body--d">
+	<div class="overlay"></div>
+
+	<!-- Start header -->
+	<header class="d-header">
+		<div class="container">
+			<div class="d-header-line">
+				<div class="d-header-line__left">
+					<a href="#!" class="logo logo--d pr-0 pr-xl-4">
+						<img src="img/logo.png" alt="">
+					</a>
+				</div>
+				<div class="d-header-line__right">
+					<div class="close-menu-section">
+						<button class="btn btn--d btn-transparent-white close-main-menu">
+							<i class="fa fa-close fz-24 lh-1 va-b"></i>
+							<span class="btn-icon-text ttu">Menu</span>
+						</button>
+					</div>
+					<div class="switch-lang--d-section">
+						<select class="switch-lang switch-lang--d selectpicker_r" data-style="btn-transparent">
+							<option data-icon="flag-icon flag-icon-en">English</option>
+							<option data-icon="flag-icon flag-icon-ru">Русский</option>
+						</select>
+					</div>
+					<div class="d-nav-full">
+						<ul class="d-nav">
+							<li class="d-nav__item active">
+								<a href="#!" class="d-nav__link">
+									<span class="d-nav__text">Home</span>
+								</a>
+							</li>
+							<li class="d-nav__item">
+								<a href="#!" class="d-nav__link">
+									<span class="d-nav__text">About</span>
+								</a>
+							</li>
+							<li class="d-nav__item">
+								<a href="#!" class="d-nav__link">
+									<span class="d-nav__text">Investors</span>
+								</a>
+							</li>
+							<li class="d-nav__item">
+								<a href="#!" class="d-nav__link">
+									<span class="d-nav__text">Partners</span>
+								</a>
+							</li>
+							<li class="d-nav__item">
+								<a href="#!" class="d-nav__link">
+									<span class="d-nav__text">Help</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="d-bell">
+						<span class="d-bell__count">4</span>
+						<button class="btn btn--d btn-transparent-white d-bell-btn"><i class="fa fa-bell-o"></i></button>
+						<div class="notification">
+							<div class="notification__block-header">
+								<i class="fa fa-bell-o fz-20 pr-3"></i>
+								<span class="ttu fz-13 fw-500">What's new?</span>
+							</div>
+							<ul class="notification__list">
+								<li class="notification__item">
+									<button class="btn btn--d btn-transparent-purple notification__close-item"><i class="fa fa-close"></i></button>
+									<div class="notification__header">
+										<h6 class="notification__title">Bitcoin Cash</h6>
+										<span class="notification__date">01/12/2017</span>
+									</div>
+									<div class="notification__body">
+										<p>You can now send, receive, exchange, and manage wallets with Bitcoin Cash! <a href="#!" class="tdu text-accent-blue">Details</a></p>
+									</div>
+								</li>
+								<li class="notification__item">
+									<button class="btn btn--d btn-transparent-purple notification__close-item"><i class="fa fa-close"></i></button>
+									<div class="notification__header">
+										<h6 class="notification__title">Profit accruals<i class="fa fa-check text-green pl-1"></i></h6>
+										<span class="notification__date">01/12/2017</span>
+									</div>
+									<div class="notification__body">
+										<p><a href="#!" class="tdu text-accent-blue">Details</a></p>
+									</div>
+								</li>
+								<li class="notification__item">
+									<button class="btn btn--d btn-transparent-purple notification__close-item"><i class="fa fa-close"></i></button>
+									<div class="notification__header">
+										<h6 class="notification__title">Investment created<i class="fa fa-check text-green pl-1"></i></h6>
+										<span class="notification__date">01/12/2017</span>
+									</div>
+									<div class="notification__body">
+										<p><a href="#!" class="tdu text-accent-blue">Details</a></p>
+									</div>
+								</li>
+								<li class="notification__item">
+									<button class="btn btn--d btn-transparent-purple notification__close-item"><i class="fa fa-close"></i></button>
+									<div class="notification__header">
+										<h6 class="notification__title">Withdrawal confirmed<i class="fa fa-check text-green pl-1"></i></h6>
+										<span class="notification__date">01/12/2017</span>
+									</div>
+									<div class="notification__body">
+										<p><a href="#!" class="tdu text-accent-blue">Details</a></p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="d-header-btn-section">
+						<button class="btn btn--d btn-blue d-header-btn ml-xl-4">
+							<i class="icon icon-user-small va-tb"></i><span class="btn-icon-text">johnsnow</span>
+						</button>
+						<button class="btn btn--d btn-outline-white-ondark d-header-btn ml-xl-4">
+							<i class="icon icon-sign-out va-tb"></i><span class="btn-icon-text">Log out</span>
+						</button>
+					</div>
+				</div>
+				<button class="btn btn--d btn-transparent-white d-burger-btn toggle-main-menu"><i class="fa fa-bars"></i></button>
+			</div>
+		</div>
+	</header>
+	<!-- End header -->
+
+
+	<div class="wrap--d">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-sm-6 col-xl-3 left-column">
+					<section class="sidebar-section">
+						<button class="btn btn--d btn-transparent-white toggle-sidebar close-sidebar btn-lg fz-18 d-xl-none"><i class="fa fa-close"></i></button>
+						<h3 class="sidebar-section__title">Balance</h3>
+						<ul class="d-balance">
+							<li class="d-balance__item">
+								<div class="d-balance__icon"><i class="cc BTC"></i></div>
+								<ul class="d-balance__info">
+									<li class="d-balance__value">
+										<span>92.12758725</span>
+										<span>Btc</span>
+									</li>
+									<li class="d-balance__value">
+										<span>0.00</span>
+										<span>Usd</span>
+									</li>
+								</ul>
+							</li>
+							<li class="d-balance__item">
+								<div class="d-balance__icon"><i class="cc ETH"></i></div>
+								<ul class="d-balance__info">
+									<li class="d-balance__value">
+										<span>92.12758725</span>
+										<span>Eth</span>
+									</li>
+									<li class="d-balance__value">
+										<span>0.00</span>
+										<span>Usd</span>
+									</li>
+								</ul>
+							</li>
+							<li class="d-balance__item">
+								<div class="d-balance__icon"><i class="cc DASH"></i></div>
+								<ul class="d-balance__info">
+									<li class="d-balance__value">
+										<span>92.12758725</span>
+										<span>Dsh</span>
+									</li>
+									<li class="d-balance__value">
+										<span>0.00</span>
+										<span>Usd</span>
+									</li>
+								</ul>
+							</li>
+							<li class="d-balance__item">
+								<div class="d-balance__icon"><i class="cc LTC"></i></div>
+								<ul class="d-balance__info">
+									<li class="d-balance__value">
+										<span>92.12758725</span>
+										<span>Ltc</span>
+									</li>
+									<li class="d-balance__value">
+										<span>0.00</span>
+										<span>Usd</span>
+									</li>
+								</ul>
+							</li>
+						</ul>
+						<div class="text-center">
+							<button class="btn btn--d btn-outline-white">Withdraw</button>
+						</div>
+					</section>
+					<section class="sidebar-section">
+						<h3 class="sidebar-section__title">Next accruals</h3>
+						<ul class="accruals">
+							<li class="accruals__item">
+								<div class="accruals__icon"><i class="icon icon-countdown"></i></div>
+								<ul class="accruals__info">
+									<li class="accruals__countdown">10:59:59</li>
+									<li class="accruals__value">0.000456</li>
+									<li class="accruals__carrency">Bitcoin, BTC</li>
+								</ul>
+							</li>
+						</ul>
+					</section>
+					<section class="sidebar-section">
+						<h3 class="sidebar-section__title">Personal affiliate link</h3>
+						<ul class="d-affiliate">
+							<li class="d-affiliate__item">
+								<span class="truncate">https://bitfluence.net/aff=CQCQa6kh</span>
+							</li>
+							<li class="d-affiliate__item">
+								<div class="copy-link">
+									<span class="copy-link__text">Copied</span>
+									<button class="btn btn--d btn-outline-white copy-link__btn">Copy your affiliate link</button>
+								</div>
+							</li>
+							<li class="d-affiliate__item">
+								<span>Download:</span><a href="#!" class="d-affiliate__link">GIF_Banners.zip</a>
+							</li>
+						</ul>
+					</section>
+					<section class="sidebar-section">
+						<h3 class="sidebar-section__title">We are social</h3>
+						<ul class="socials">
+							<li class="socials__item">
+								<a href="#!" class="socials__link"><i class="fa fa-telegram"></i></a>
+							</li>
+							<li class="socials__item">
+								<a href="#!" class="socials__link"><i class="fa fa-facebook-official"></i></a>
+							</li>
+						</ul>
+					</section>
+				</div>
+				<div class="col-xl-9 right-column">
+					<div class="dashboard-line">
+						<ul class="dashboard-menu">
+							<li class="dashboard-menu__item d-xl-none">
+								<button class="dashboard-menu__link toggle-sidebar open-sidebar"><i class="fa fa-bars fz-18"></i></button>
+							</li>
+							<li class="dashboard-menu__item active">
+								<a href="#!" class="dashboard-menu__link">Investments</a>
+							</li>
+							<li class="dashboard-menu__item">
+								<a href="#!" class="dashboard-menu__link">History</a>
+							</li>
+							<li class="dashboard-menu__item">
+								<a href="#!" class="dashboard-menu__link">Affiliate</a>
+							</li>
+							<li class="dashboard-menu__item">
+								<a href="#!" class="dashboard-menu__link">Account</a>
+							</li>
+						</ul>
+						<div class="dashboard-line__right">
+							<div class="two-fa">
+								<span class="two-fa__title">2Fa</span>
+								<div class="two-fa__checker">
+									<input type="checkbox" id="unchecked" class="cbx hidden">
+									<label for="unchecked" class="lbl"></label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="content--d">
+						<!-- Start d-investments -->
+						<section class="d-investments__info">
+							<div class="row">
+								<div class="col-lg-4">
+									<div class="block--d info-block">
+										<div class="info-block__icon"><i class="icon icon-refresh"></i></div>
+										<div>
+											<ul class="info-block__data">
+												<li class="info-block__value">$ 4934.8230</li>
+												<li class="info-block__title">Total invested</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4">
+									<div class="block--d info-block">
+										<div class="info-block__icon"><i class="icon icon-graph-small"></i></div>
+										<div>
+											<ul class="info-block__data">
+												<li class="info-block__value">$ 2184.2919</li>
+												<li class="info-block__title">Total earned</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4">
+									<div class="block--d info-block">
+										<div class="info-block__icon"><i class="icon icon-pie-small"></i></div>
+										<div>
+											<ul class="info-block__data">
+												<li class="info-block__value">$ 7009.8100</li>
+												<li class="info-block__title">Total paid</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<section class="d-investments__offer block--d">
+							<div class="d-title">
+								<h3 class="d-title__text">Investments offer</h3>
+								<div class="d-title__block">
+									<ul class="outline-filter outline-filter--d">
+										<li class="outline-filter__item active">
+											<button class="btn btn--d btn-transparent-accent outline-filter__btn fz-16"><i class="fa fa-calendar"></i>Daily plan</button>
+										</li>
+										<li class="outline-filter__item">
+											<button class="btn btn--d btn-transparent-accent outline-filter__btn fz-16"><i class="fa fa-calendar-check-o"></i>Weekly plan</button>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="accent-line pt-4">
+								<div class="row">
+									<div class="col-md-5 mb-5 mb-md-0">
+										<p class="fz-16 text-accent-blue text-center"><span class="text-purple fz-24 lh-1">4.9<i class="fz-18">%</i></span> daily for 40 business Days</p>
+										<ul class="parts">
+											<li class="parts__item">
+												<span class="parts__title">Total profit</span>
+												<span class="parts__value">49%</span>
+											</li>
+											<li class="parts__item">
+												<span class="parts__title">Total profit</span>
+												<span class="parts__value">49%</span>
+											</li>
+										</ul>
+									</div>
+									<div class="col-md-7">
+										<h6 class="mt-2">Daily Plan features:</h6>
+										<p>Daily earnings from <b>4.9%</b> on weekdays and <b>1%</b> on weekends. You may deposit as little as <b>$20</b>. All deposits and payments are made in supported cryptocurrencies. <b>Freeze</b> the current currencies exchange rate for the term of the investment. <b>Instant</b> withdrawals.</p>
+									</div>
+								</div>
+							</div>
+							<ul class="filter filter--d filter-currency slide-nav mt-5 mb-4 mx-5">
+								<li class="filter__item active">
+									<button class="btn btn--d btn-transparent-accent filter__btn fz-14"><i class="cc BTC fz-20"></i>Btc</button>
+								</li>
+								<li class="filter__item">
+									<button class="btn btn--d btn-transparent-accent filter__btn fz-14"><i class="cc BTC fz-20"></i>Usd</button>
+								</li>
+								<li class="filter__item">
+									<button class="btn btn--d btn-transparent-accent filter__btn fz-14"><i class="cc ETH fz-20"></i>Eth</button>
+								</li>
+								<li class="filter__item">
+									<button class="btn btn--d btn-transparent-accent filter__btn fz-14"><i class="cc ETH fz-20"></i>Usd</button>
+								</li>
+								<li class="filter__item">
+									<button class="btn btn--d btn-transparent-accent filter__btn fz-14"><i class="cc DASH fz-20"></i>Dsh</button>
+								</li>
+								<li class="filter__item">
+									<button class="btn btn--d btn-transparent-accent filter__btn fz-14"><i class="cc DASH fz-20"></i>Usd</button>
+								</li>
+								<li class="filter__item">
+									<button class="btn btn--d btn-transparent-accent filter__btn fz-14"><i class="cc LTC fz-20"></i>Lts</button>
+								</li>
+								<li class="filter__item">
+									<button class="btn btn--d btn-transparent-accent filter__btn fz-14"><i class="cc LTC fz-20"></i>Usd</button>
+								</li>
+							</ul>
+							<div class="row mx-0 justify-content-center">
+								<div class="col-md-8 text-center">
+									<p class="fz-13">If you select the Bitcoin, BTC option, your investment will NOT converted into USD, and your interest accruals will be calculated directly in BTC.</p>
+								</div>
+							</div>
+							<div class="profit-input mt-5 mb-3">
+								<div class="row mx-0">
+									<div class="col-md-3">
+										<div class="profit-input__item">
+											<span class="profit-input__value fz-14">0.0025 Btc</span>
+											<span class="profit-input__title fz-13">Minimum investment</span>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group form-group-icon">
+											<input type="number" class="form-control form-input form-input--icon text-default inset-shadow height-40" value="0.0005">
+											<span class="form-icon form-icon--grey"><i class="cc BTC"></i>Btc</span>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="profit-input__item">
+											<span class="profit-input__value fz-14">0.001 Btc</span>
+											<span class="profit-input__title fz-13">Minimum investment</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="accent-line">
+								<ul class="info-line__list">
+									<li class="info-line__item">
+										<span class="info-line__title fz-13">Current daily interest</span>
+										<span class="info-line__value fz-20">4.4%</span>
+									</li>
+									<li class="info-line__item">
+										<span class="info-line__title fz-13">Daily income</span>
+										<span class="info-line__value fz-20">0.0001 Btc</span>
+									</li>
+									<li class="info-line__item">
+										<span class="info-line__title fz-13">Net profit</span>
+										<span class="info-line__value fz-20">0.001 Btc</span>
+									</li>
+									<li class="info-line__item">
+										<span class="info-line__title fz-13">Break-even point</span>
+										<span class="info-line__value fz-20">2017/12/31</span>
+									</li>
+									<li class="info-line__item">
+										<span class="info-line__title fz-13">Total return</span>
+										<span class="info-line__value fz-20">0.001 Btc</span>
+									</li>
+								</ul>
+							</div>
+							<div class="row mx-0 justify-content-center mt-5 pb-5">
+								<div class="col-md-4">
+									<button class="btn btn--d btn-blue w100">Make investment</button>
+								</div>
+							</div>
+						</section>
+						<section class="d-investments__my block--d">
+							<div class="d-title">
+								<h3 class="d-title__text">My investments</h3>
+								<div class="d-title__block">
+									<ul class="outline-filter outline-filter--d">
+										<li class="outline-filter__item active">
+											<button class="btn btn--d btn-transparent-accent outline-filter__btn fz-13">Active investments</button>
+										</li>
+										<li class="outline-filter__item">
+											<button class="btn btn--d btn-transparent-accent outline-filter__btn fz-13">Pending investments</button>
+										</li>
+										<li class="outline-filter__item">
+											<button class="btn btn--d btn-transparent-accent outline-filter__btn fz-13">Completed investments</button>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="transaction pb-5">
+								<div class="row mx-0">
+									<div class="col-md-4 border-grey">
+										<div class="transaction__block icon-bg icon-bg--btc">
+											<ul class="transaction__list mb-2">
+												<li class="transaction__item fz-15 fw-500 mb-3">
+													<span class="transaction__title text-accent-blue">Bitcoin, BTC</span>
+													<span class="transaction__value text-purple">4.4% Daily</span>
+												</li>
+												<li class="transaction__item">
+													<span class="transaction__title fz-12 fw-300">Amount</span>
+													<span class="transaction__value fz-13 ttu">0.12345423 Btc</span>
+												</li>
+												<li class="transaction__item">
+													<span class="transaction__title fz-12 fw-300">Daily income</span>
+													<span class="transaction__value fz-13 ttu">0.123454 Btc</span>
+												</li>
+												<li class="transaction__item">
+													<span class="transaction__title fz-12 fw-300">Net profit</span>
+													<span class="transaction__value fz-13 ttu">0.123454 Btc</span>
+												</li>
+												<li class="transaction__item">
+													<span class="transaction__title fz-12 fw-300">Total return</span>
+													<span class="transaction__value fz-13 ttu">0.123454 Btc</span>
+												</li>
+											</ul>
+											<div class="process-date">
+												<div class="row align-items-center">
+													<div class="col-lg-4 pb-3 text-center">
+														<span class="fz-13 fw-300">01/10/2017</span>
+													</div>
+													<div class="col-lg-4 pb-3 text-center px-lg-0">
+														<div class="progress progress--min">
+															<div class="progress-bar bg-blue-gradient" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+														</div>
+													</div>
+													<div class="col-lg-4 pb-3 text-center">
+														<span class="fz-13 fw-300">6/10/2017</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-4 border-grey">
+										<div class="transaction__block icon-bg icon-bg--eth">
+											<ul class="transaction__list mb-2">
+												<li class="transaction__item fz-15 fw-500 mb-3">
+													<span class="transaction__title text-accent-blue">Ethrereum, ETH</span>
+													<span class="transaction__value text-purple">4.4% Daily</span>
+												</li>
+												<li class="transaction__item">
+													<span class="transaction__title fz-12 fw-300">Amount</span>
+													<span class="transaction__value fz-13 ttu">0.12345423 Btc</span>
+												</li>
+												<li class="transaction__item">
+													<span class="transaction__title fz-12 fw-300">Daily income</span>
+													<span class="transaction__value fz-13 ttu">0.123454 Btc</span>
+												</li>
+												<li class="transaction__item">
+													<span class="transaction__title fz-12 fw-300">Net profit</span>
+													<span class="transaction__value fz-13 ttu">0.123454 Btc</span>
+												</li>
+												<li class="transaction__item">
+													<span class="transaction__title fz-12 fw-300">Total return</span>
+													<span class="transaction__value fz-13 ttu">0.123454 Btc</span>
+												</li>
+											</ul>
+											<div class="process-date">
+												<div class="row align-items-center">
+													<div class="col-lg-4 pb-3 text-center">
+														<span class="fz-13 fw-300">01/10/2017</span>
+													</div>
+													<div class="col-lg-4 pb-3 text-center px-lg-0">
+														<div class="progress progress--min">
+															<div class="progress-bar bg-blue-gradient" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+														</div>
+													</div>
+													<div class="col-lg-4 pb-3 text-center">
+														<span class="fz-13 fw-300">6/10/2017</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-4 border-grey">
+										<div class="transaction__block icon-bg icon-bg--ltc">
+											<ul class="transaction__list mb-2">
+												<li class="transaction__item fz-15 fw-500 mb-3">
+													<span class="transaction__title text-accent-blue">Litecoin, BTC</span>
+													<span class="transaction__value text-purple">4.4% Daily</span>
+												</li>
+												<li class="transaction__item">
+													<span class="transaction__title fz-12 fw-300">Amount</span>
+													<span class="transaction__value fz-13 ttu">0.12345423 Btc</span>
+												</li>
+												<li class="transaction__item">
+													<span class="transaction__title fz-12 fw-300">Daily income</span>
+													<span class="transaction__value fz-13 ttu">0.123454 Btc</span>
+												</li>
+												<li class="transaction__item">
+													<span class="transaction__title fz-12 fw-300">Net profit</span>
+													<span class="transaction__value fz-13 ttu">0.123454 Btc</span>
+												</li>
+												<li class="transaction__item">
+													<span class="transaction__title fz-12 fw-300">Total return</span>
+													<span class="transaction__value fz-13 ttu">0.123454 Btc</span>
+												</li>
+											</ul>
+											<div class="process-date">
+												<div class="row align-items-center">
+													<div class="col-lg-4 pb-3 text-center">
+														<span class="fz-13 fw-300">01/10/2017</span>
+													</div>
+													<div class="col-lg-4 pb-3 text-center px-lg-0">
+														<div class="progress progress--min">
+															<div class="progress-bar bg-blue-gradient" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+														</div>
+													</div>
+													<div class="col-lg-4 pb-3 text-center">
+														<span class="fz-13 fw-300">6/10/2017</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row justify-content-center mx-0 pb-5">
+								<div class="col-md-3">
+									<button class="btn btn--d btn-transparent-blue w100">
+										<span class="pr-1">Show more</span>
+										<i class="fa fa-angle-down"></i>
+									</button>
+								</div>
+							</div>
+						</section>
+						<section class="d-investments__my block--d">
+							<div class="d-title">
+								<h3 class="d-title__text">My investments</h3>
+								<div class="d-title__block">
+									<ul class="outline-filter outline-filter--d">
+										<li class="outline-filter__item active">
+											<button class="btn btn--d btn-transparent-accent outline-filter__btn fz-13">Active investments</button>
+										</li>
+										<li class="outline-filter__item">
+											<button class="btn btn--d btn-transparent-accent outline-filter__btn fz-13">Pending investments</button>
+										</li>
+										<li class="outline-filter__item">
+											<button class="btn btn--d btn-transparent-accent outline-filter__btn fz-13">Completed investments</button>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="transaction pb-5">
+								<div class="row mx-0">
+									<div class="media-body text-center pt-4 px-3">
+										<p>Not yet any information about transactions please, go to <a href="#!">Dashboard</a></p>
+									</div>
+								</div>
+							</div>
+						</section>
+
+						<!-- End d-investments -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Start footer -->
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 footer__left">
+					<a href="#!" class="footer__logo"><img src="img/footer-logo.png" alt=""></a>
+					<address class="footer__address">Collins Street West 8007, San Fransico, United States.</address>
+					<div class="links">
+						<a href="#!" class="links__item links__email">support@bitfluence.com</a>
+						<a href="#!" class="links__item"><i class="fa fa-paper-plane"></i></a>
+						<a href="#!" class="links__item"><i class="fa fa-facebook"></i></a>
+					</div>
+				</div>
+				<div class="col-lg-5 footer__middle">
+					<div class="footer-nav-wrap">
+						<ul class="footer-nav">
+							<li class="footer-nav__title">Customers</li>
+							<li class="footer-nav__item">
+								<a href="#!" class="footer-nav__link">Investors</a>
+							</li>
+							<li class="footer-nav__item">
+								<a href="#!" class="footer-nav__link">Partners</a>
+							</li>
+							<li class="footer-nav__item">
+								<a href="#!" class="footer-nav__link">News</a>
+							</li>
+							<li class="footer-nav__item">
+								<a href="#!" class="footer-nav__link">Help</a>
+							</li>
+						</ul>
+						<ul class="footer-nav">
+							<li class="footer-nav__title">Explore</li>
+							<li class="footer-nav__item">
+								<a href="#!" class="footer-nav__link">About</a>
+							</li>
+							<li class="footer-nav__item">
+								<a href="#!" class="footer-nav__link">Contacts</a>
+							</li>
+							<li class="footer-nav__item">
+								<a href="#!" class="footer-nav__link">Privacy police</a>
+							</li>
+							<li class="footer-nav__item">
+								<a href="#!" class="footer-nav__link">Terms of Use</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-3 footer__right">
+					<div class="sign-bar sign-bar--footer">
+						<button class="btn btn-outline-white-ondark sign-bar__btn"><i class="fa fa-lock"></i>Sign In</button>
+						<button class="btn btn-outline-white-ondark sign-bar__btn">Sign Up</button>
+					</div>
+					<div class="server-time">
+						<span>Server time, UTC 00:00</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Stop footer -->
+	
+
+	<script src="js/scripts.min.js"></script>
+	<script src="js/common.js"></script>
+
+</body>
+</html>

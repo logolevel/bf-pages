@@ -1,0 +1,9 @@
+@import "_mixins/font-face";
+
+@include fontFace("Aventa", "../fonts/Aventa-Regular/Aventa-Regular", normal, normal);
+@include fontFace("Aventa", "../fonts/Aventa-Light/Aventa-Light", normal, 300);
+@include fontFace("Aventa", "../fonts/Aventa-Bold/Aventa-Bold", normal, 500);
+@include fontFace("Aventa", "../fonts/Aventa-Italic/Aventa-Italic", italic, normal);
+@include fontFace("FontAwesome", "../fonts/fontawesome/fontawesome-webfont", normal, normal);
+@include fontFace("fontwallet", "../fonts/fontwallet/fontwallet", normal, normal);
+@include fontFace("cryptocoins", "../fonts/cryptocoins/cryptocoins", normal, normal);

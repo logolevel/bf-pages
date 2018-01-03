@@ -1,0 +1,82 @@
+.fw {
+  font-family: 'fontwallet' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fw-bitcoin-cash-full:before {
+  content: "\e900";
+}
+.fw-litecoin-full:before {
+  content: "\e91e";
+}
+.fw-zcash-full:before {
+  content: "\e91f";
+}
+.fw-ripple-full:before {
+  content: "\e920";
+}
+.fw-monero-full:before {
+  content: "\e921";
+}
+.fw-perfect-money-full:before {
+  content: "\e922";
+}
+.fw-advcash-full:before {
+  content: "\e923";
+}
+.fw-bitcoin-full:before {
+  content: "\e924";
+}
+.fw-ethereum-full:before {
+  content: "\e925";
+}
+.fw-dash-full:before {
+  content: "\e926";
+}
+.fw-payeer-full:before {
+  content: "\e927";
+}
+.fw-zcash:before {
+  content: "\e909";
+}
+.fw-ripple:before {
+  content: "\e90a";
+}
+.fw-monero:before {
+  content: "\e90b";
+}
+.fw-ethereum-classic:before {
+  content: "\e90c";
+}
+.fw-bitcoin-cash:before {
+  content: "\e90d";
+}
+.fw-litecoin:before {
+  content: "\e90e";
+}
+.fw-perfect-money:before {
+  content: "\e90f";
+}
+.fw-payeer:before {
+  content: "\e910";
+}
+.fw-advcash:before {
+  content: "\e911";
+}
+.fw-dash:before {
+  content: "\e912";
+}
+.fw-ethereum:before {
+  content: "\e913";
+}
+.fw-bitcoin:before {
+  content: "\e914";
+}
