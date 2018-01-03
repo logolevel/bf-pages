@@ -1,7 +1,9 @@
 # bf pages
 Bootstrap 4 and BEM
 <h2>
-	DEMO:<a href="https://logolevel.github.io/bf-pages/dist/d-investments.html">dashboard</a>
+	<span>DEMO: </span>
+	<a href="https://logolevel.github.io/bf-pages/dist/d-investments.html">dashboard</a>
+	<span> and </span>
 	<a href="https://logolevel.github.io/bf-pages/dist/index.html">main</a>
 </h2>
 
