@@ -11,7 +11,7 @@ Bootstrap 4 and BEM
 	<li>Responsive design</li>
 	<li>BEM</li>
 	<li>Bootstrap 4</li>
-	<li>Selectpicker</li>
+	<li>18 pages</li>
 </ul>
 <div><img src="screencast_bf.gif" alt=""></div>
 <p>^ gif preview ^</p>
